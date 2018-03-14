@@ -1,0 +1,35 @@
+<apex:page controller="loanCtrl" >
+    <apex:form >
+        <apex:pageBlock title="Loan Info">
+        
+            <apex:pageBlockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Name"/>
+                    <apex:inputText value="{!lname }" />
+                </apex:pageBlockSectionItem>    
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Salary"/>
+                    <apex:inputText value="{!lSalary }" />
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection >
+                <apex:pageblockSectionItem >
+                <apex:outputLabel value="Account_Type" />
+                <apex:selectList value="{!lacc }" size="1" >
+                    <apex:selectOption itemLabel="-NONE-" itemValue="NONE"/>
+                    <apex:selectOption itemlabel="Savings" itemValue="Savings"/>
+                    <apex:selectOption itemlabel="Current" itemValue="Current"/>
+                    <apex:selectOption itemlabel="NRI" itemValue="NRI"/>
+                </apex:selectList>
+                </apex:pageblockSectionItem>
+            </apex:pageBlockSection>
+            
+        </apex:pageBlock>
+        
+        <center><apex:commandButton value="Save" action="{!insertloan}"/></center>
+    </apex:form>  
+</apex:page>

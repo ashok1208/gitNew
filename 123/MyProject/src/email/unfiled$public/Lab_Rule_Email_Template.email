@@ -1,0 +1,10 @@
+Dear {!Lab__c.Faculty_Name__c} Sir,
+
+The Student With the Following Details is ABSENT for the last 2 Days.
+
+Student Name  :  {!Lab__c.Student_Name__c} 
+
+System No  :  {!Lab__c.System_No__c}
+
+Regards,
+Rina.

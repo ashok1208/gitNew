@@ -1,0 +1,31 @@
+<apex:page controller="TestCtrl" showHeader="false" rendered="true">
+
+<apex:form >
+<center>
+<apex:pageBlock title="Imfo">
+    First Name :    {!$User.FirstName}<br/>
+    Email      :    {!$User.Email}<br/>
+    UserName   :    {!$User.Username}<br/> 
+    Status     :    {!$User.IsActive}
+
+</apex:pageBlock>
+<apex:pageBlock title="myBlock">
+    Name    : {!name}<br/>
+    Age         : {!Age}<br/>
+    Fair    : {!Fair}<br/>   
+</apex:pageBlock>  
+</center>
+</apex:form>
+
+<apex:pageBlock title="My Page" tabStyle="Payment__c" helpTitle="youtube" helpUrl="http://www.youtube.com" >
+
+<center>
+<h1>Congratulations</h1><br/><br/>
+<h1>This Is ASHOK</h1><br/><br/>
+<h1>Good Morning</h1><br/><br/>
+This is your new Page<br/><br/>
+<h1>10+20+50</h1><br/><br/>
+<h1>{!10+20+50}</h1>
+</center>
+</apex:pageBlock>
+</apex:page>

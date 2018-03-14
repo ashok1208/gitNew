@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Supplier</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Suppliers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact No1 --></label>
+        <name>Contact_No1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact No2 --></label>
+        <name>Contact_No2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Address --></label>
+        <name>Supplier_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Email --></label>
+        <name>Supplier_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier ID --></label>
+        <name>Supplier_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,30 @@
+<apex:page standardController="Life_Insurance__c" extensions="AddLifeInsurenceCtrl" showHeader="false">
+<center>
+<apex:form >
+    <apex:pageBlock title="AddLifeInsurence">
+        <apex:pageBlockSection columns="1">
+            <apex:inputField value="{!cds.Policy_Holder_Name__c}"/>
+            <apex:inputField value="{!cds.Agent_ID__c}"/>
+            <apex:inputField value="{!cds.Premium_Amount__c}"/>
+            <apex:inputField value="{!cds.No_of_Terms__c}"/>
+            <apex:inputField value="{!cds.Premium_Type__c}"/>
+            <apex:inputField value="{!cds.Premium_Start_Date__c}"/>
+            <apex:inputField value="{!cds.Premium_End_Date__c}"/>
+        
+        </apex:pageBlockSection>
+    
+    
+    
+    </apex:pageBlock>
+    
+      <apex:commandButton value="SAVE" action="{!save}"/>
+      <apex:commandButton value="Save & New" action="{!SaveandNew}"/>
+      <apex:commandButton value="Cancel" action="{!cancel}"/>
+
+
+</apex:form>
+
+
+</center>
+ 
+</apex:page>

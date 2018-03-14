@@ -1,0 +1,34 @@
+<apex:page standardController="kumar__c" recordSetVar="kulist" showHeader="false" >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection >  
+        <apex:pageblock title="MyInfo" >
+            <apex:outputPanel layout="Block" style="overflow:auto;height:150px">
+                <apex:pageBlockTable value="{!kulist}" var="k" border="2">
+                    <apex:column >
+                        <apex:commandLink value="{!k.name}">
+                            <apex:param name="kid" value="{!k.id}"/>
+                        </apex:commandLink>                
+                    </apex:column>       
+                    
+                    <apex:column >
+                        <apex:commandLink value="{!k.Status__c}">
+                            <apex:param name="Status" value="{!k.id}"/>
+                        </apex:commandLink>                
+                    </apex:column>       
+                    
+                   
+                    <apex:column value="{!k.Bill__c}"/>
+                    <apex:column value="{!k.Credit_Card_Pament__c}" /> 
+                    
+                </apex:pageBlockTable>
+            </apex:outputPanel>
+        </apex:pageblock>
+        <apex:pageBlock title="Info">
+            <apex:detail subject="{!$CurrentPage.Parameters.Status}"/>   
+                     
+        </apex:pageBlock>
+        </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

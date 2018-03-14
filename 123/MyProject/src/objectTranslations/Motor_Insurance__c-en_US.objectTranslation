@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Motor Insurance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Motor Insurances</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agent ID --></label>
+        <name>Agent_ID__c</name>
+        <relationshipLabel><!-- Motor Insurances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Manufactured Year --></label>
+        <name>Manufactured_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motor Color --></label>
+        <name>Motor_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motor Type --></label>
+        <name>Motor_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of Terms --></label>
+        <name>No_of_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Policy Holder --></label>
+        <name>Policy_Holder__c</name>
+        <relationshipLabel><!-- Motor Insurances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Premium Amount --></label>
+        <name>Premium_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Premium End  Date --></label>
+        <name>Premium_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Premium Start Date --></label>
+        <name>Premium_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Premium Type --></label>
+        <name>Premium_Type__c</name>
+        <picklistValues>
+            <masterLabel>Half Yearly</masterLabel>
+            <translation><!-- Half Yearly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yearly</masterLabel>
+            <translation><!-- Yearly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Paid Amount --></label>
+        <name>Total_Paid_Amount__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CandidateEnquiry</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CandidateEnquirys</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address For Correspondence --></label>
+        <name>Address_For_Correspondence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Candidate Name --></label>
+        <name>Candidate_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Community --></label>
+        <name>Community__c</name>
+        <picklistValues>
+            <masterLabel>BC</masterLabel>
+            <translation><!-- BC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christian Minority</masterLabel>
+            <translation><!-- Christian Minority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muslim Minority</masterLabel>
+            <translation><!-- Muslim Minority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OC</masterLabel>
+            <translation><!-- OC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ST</masterLabel>
+            <translation><!-- ST --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Course --></label>
+        <name>Course__c</name>
+        <relationshipLabel><!-- CandidateEnquirys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Of Birth --></label>
+        <name>Date_Of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Educational Qualification --></label>
+        <name>Educational_Qualification__c</name>
+        <picklistValues>
+            <masterLabel>B.Tech</masterLabel>
+            <translation><!-- B.Tech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degree</masterLabel>
+            <translation><!-- Degree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diploma</masterLabel>
+            <translation><!-- Diploma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate</masterLabel>
+            <translation><!-- Intermediate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MBA</masterLabel>
+            <translation><!-- MBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCA</masterLabel>
+            <translation><!-- MCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PG</masterLabel>
+            <translation><!-- PG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSC</masterLabel>
+            <translation><!-- SSC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email ID --></label>
+        <name>Email_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Family Annual Income --></label>
+        <name>Family_Annual_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- Father Occupation --></label>
+        <name>Father_Occupation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Father’s Mobile No --></label>
+        <name>Father_s_Mobile_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Guardian Name --></label>
+        <name>Guardian_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guardian --></label>
+        <name>Guardian__c</name>
+        <picklistValues>
+            <masterLabel>Father</masterLabel>
+            <translation><!-- Father --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guardian</masterLabel>
+            <translation><!-- Guardian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Husbend</masterLabel>
+            <translation><!-- Husbend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mother</masterLabel>
+            <translation><!-- Mother --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Interested Course 1 --></label>
+        <name>Interested_Course_1__c</name>
+        <picklistValues>
+            <masterLabel>Cloud Computing</masterLabel>
+            <translation><!-- Cloud Computing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communication Skills</masterLabel>
+            <translation><!-- Communication Skills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Java</masterLabel>
+            <translation><!-- Core Java --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle ADF</masterLabel>
+            <translation><!-- Oracle ADF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle DBA</masterLabel>
+            <translation><!-- Oracle DBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle Financials</masterLabel>
+            <translation><!-- Oracle Financials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personality Development</masterLabel>
+            <translation><!-- Personality Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spoken English</masterLabel>
+            <translation><!-- Spoken English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailoring</masterLabel>
+            <translation><!-- Tailoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tally ERP</masterLabel>
+            <translation><!-- Tally ERP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yoga</masterLabel>
+            <translation><!-- Yoga --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Interested Course 2 --></label>
+        <name>Interested_Course_2__c</name>
+        <picklistValues>
+            <masterLabel>Cloud Computing</masterLabel>
+            <translation><!-- Cloud Computing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communication Skills</masterLabel>
+            <translation><!-- Communication Skills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Java</masterLabel>
+            <translation><!-- Core Java --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle ADF</masterLabel>
+            <translation><!-- Oracle ADF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle DBA</masterLabel>
+            <translation><!-- Oracle DBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle Financials</masterLabel>
+            <translation><!-- Oracle Financials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personality Development</masterLabel>
+            <translation><!-- Personality Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spoken English</masterLabel>
+            <translation><!-- Spoken English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailoring</masterLabel>
+            <translation><!-- Tailoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tally ERP</masterLabel>
+            <translation><!-- Tally ERP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yoga</masterLabel>
+            <translation><!-- Yoga --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mobile No --></label>
+        <name>Mobile_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mother Occupation --></label>
+        <name>Mother_Occupation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Interested Course --></label>
+        <name>Other_Interested_Course__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passed Out Organization --></label>
+        <name>Passed_Out_Organization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passport No --></label>
+        <name>Passport_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Permanent Address --></label>
+        <name>Permanent_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proofs Submitted --></label>
+        <name>Proofs_Submitted__c</name>
+        <picklistValues>
+            <masterLabel>Aadhar Card</masterLabel>
+            <translation><!-- Aadhar Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driving License</masterLabel>
+            <translation><!-- Driving License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAN Card</masterLabel>
+            <translation><!-- PAN Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passport</masterLabel>
+            <translation><!-- Passport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ration Card</masterLabel>
+            <translation><!-- Ration Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voter ID</masterLabel>
+            <translation><!-- Voter ID --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Year Of Pass --></label>
+        <name>Year_Of_Pass__c</name>
+        <picklistValues>
+            <masterLabel>1990</masterLabel>
+            <translation><!-- 1990 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1991</masterLabel>
+            <translation><!-- 1991 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1992</masterLabel>
+            <translation><!-- 1992 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1993</masterLabel>
+            <translation><!-- 1993 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1994</masterLabel>
+            <translation><!-- 1994 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1995</masterLabel>
+            <translation><!-- 1995 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1996</masterLabel>
+            <translation><!-- 1996 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1997</masterLabel>
+            <translation><!-- 1997 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1998</masterLabel>
+            <translation><!-- 1998 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1999</masterLabel>
+            <translation><!-- 1999 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2000</masterLabel>
+            <translation><!-- 2000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2001</masterLabel>
+            <translation><!-- 2001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2002</masterLabel>
+            <translation><!-- 2002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2003</masterLabel>
+            <translation><!-- 2003 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2004</masterLabel>
+            <translation><!-- 2004 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2005</masterLabel>
+            <translation><!-- 2005 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2006</masterLabel>
+            <translation><!-- 2006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2007</masterLabel>
+            <translation><!-- 2007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2008</masterLabel>
+            <translation><!-- 2008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2009</masterLabel>
+            <translation><!-- 2009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2010</masterLabel>
+            <translation><!-- 2010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2011</masterLabel>
+            <translation><!-- 2011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2012</masterLabel>
+            <translation><!-- 2012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2013</masterLabel>
+            <translation><!-- 2013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2014</masterLabel>
+            <translation><!-- 2014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015</masterLabel>
+            <translation><!-- 2015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016</masterLabel>
+            <translation><!-- 2016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2017</masterLabel>
+            <translation><!-- 2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2018</masterLabel>
+            <translation><!-- 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019</masterLabel>
+            <translation><!-- 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020</masterLabel>
+            <translation><!-- 2020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2021</masterLabel>
+            <translation><!-- 2021 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2022</masterLabel>
+            <translation><!-- 2022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2023</masterLabel>
+            <translation><!-- 2023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2024</masterLabel>
+            <translation><!-- 2024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2025</masterLabel>
+            <translation><!-- 2025 --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>CandidateEnquiry Layout</layout>
+        <sections>
+            <label><!-- Contact Details --></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label><!-- Course Information --></label>
+            <section>Course Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Educational Details --></label>
+            <section>Educational Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please Enter Valid Number --></errorMessage>
+        <name>Candidate_Mobile_No_Val_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter Valid Name Should Not Contain Number Or Special Charecters --></errorMessage>
+        <name>Candidate_Name_Val_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Alphabets Like- - - [A-Z][a-z] --></errorMessage>
+        <name>Father_Occupation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only Alphabets Like- - -[A-Z][a-z] --></errorMessage>
+        <name>Mother_Occupation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The PassPort Number Should Not Contain Special Charecters --></errorMessage>
+        <name>Passport_No_Val_Rule</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Save_To_Student --></label>
+        <name>Save_To_Student</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,56 @@
+<apex:page StandardController="CandidateEnquiry__c" Extensions="redirect_student"> 
+    <apex:sectionHeader title="Candidate Enquiry Edit" subtitle="New Candidate Enquiry"/> 
+        <apex:form >
+
+            <apex:outputLink value="{!URLFOR($Action.CandidateEnquiry__c.New)}"> 
+                <h4>Create New Candidate</h4>
+            </apex:outputLink> 
+            <apex:pageBlock >
+                <apex:pageBlockSection title="Candidate Information" collapsible="false"> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Candidate_Name__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Gender__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Guardian__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Date_Of_Birth__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Guardian_Name__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Father_Occupation__c}"/>
+                    <apex:inputField value="{!CandidateEnquiry__c.Community__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Mother_Occupation__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Course__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Family_Annual_Income__c}"/>
+                    <apex:inputField value="{!CandidateEnquiry__c.Proofs_Submitted__c}"/><br></br> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Passport_No__c}"/>
+                </apex:pageBlockSection>
+
+                <apex:pageBlockSection title="Educational Details" collapsible="false" columns="1"> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Educational_Qualification__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Year_Of_Pass__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Passed_Out_Organization__c}"/>
+                </apex:pageBlockSection>
+
+                <apex:pageBlockSection title="Contact Details" collapsible="false"> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Mobile_No__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Father_s_Mobile_No__c}"/>
+                    <apex:inputField value="{!CandidateEnquiry__c.Address_for_Correspondence__c }"/>
+                    <apex:inputField value="{!CandidateEnquiry__c.Email_ID__c}"/>
+                    <apex:inputField value="{!CandidateEnquiry__c.Permanent_Address__c}"/> 
+                </apex:pageBlockSection>
+
+                <apex:pageBlockSection title="Course Information" collapsible="false"> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Interested_Course_1__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Other_Interested_Course__c}"/> 
+                    <apex:inputField value="{!CandidateEnquiry__c.Interested_Course_2__c}"/>                    
+                </apex:pageBlockSection>
+ 
+                <center> <apex:commandButton action="{!save}" value="SAVE"/> </center>
+ 
+                <center> <apex:commandButton action="{!records}" value="SAVE to student"/> </center>
+
+                <center> <apex:commandButton action="{!redirect}" value="go" timeout="200"/> </center>
+
+
+
+            </apex:pageBlock>
+
+        </apex:form>
+
+</apex:page>

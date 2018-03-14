@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Course</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Course</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contact No --></label>
+        <name>Contact_No__c</name>
+        <picklistValues>
+            <masterLabel>0987654321</masterLabel>
+            <translation><!-- 0987654321 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1234567890</masterLabel>
+            <translation><!-- 1234567890 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Person --></label>
+        <name>Contact_Person__c</name>
+        <picklistValues>
+            <masterLabel>ASHOK</masterLabel>
+            <translation><!-- ASHOK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rina</masterLabel>
+            <translation><!-- Rina --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Course Closing Date --></label>
+        <name>Course_Closing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Duration --></label>
+        <name>Course_Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Intake Strength --></label>
+        <name>Course_Intake_Strength__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Name --></label>
+        <name>Course_Name__c</name>
+        <picklistValues>
+            <masterLabel>Cloud Computing</masterLabel>
+            <translation><!-- Cloud Computing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communication Skills</masterLabel>
+            <translation><!-- Communication Skills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Java</masterLabel>
+            <translation><!-- Core Java --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle ADF</masterLabel>
+            <translation><!-- Oracle ADF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle DBA</masterLabel>
+            <translation><!-- Oracle DBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle Financials</masterLabel>
+            <translation><!-- Oracle Financials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personality Development</masterLabel>
+            <translation><!-- Personality Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spoken English</masterLabel>
+            <translation><!-- Spoken English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tailoring</masterLabel>
+            <translation><!-- Tailoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tally ERP</masterLabel>
+            <translation><!-- Tally ERP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yoga</masterLabel>
+            <translation><!-- Yoga --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Course Starting Date --></label>
+        <name>Course_Starting_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Timings --></label>
+        <name>Course_Timings__c</name>
+        <picklistValues>
+            <masterLabel>1:00 PM-3:00 PM</masterLabel>
+            <translation><!-- 1:00 PM-3:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:30 PM-5:30 PM</masterLabel>
+            <translation><!-- 3:30 PM-5:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 AM-9:00 AM</masterLabel>
+            <translation><!-- 7:00 AM-9:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 PM-9:00 PM</masterLabel>
+            <translation><!-- 7:00 PM-9:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 AM-11:30 AM</masterLabel>
+            <translation><!-- 9:30 AM-11:30 AM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Faculty --></label>
+        <name>Faculty__c</name>
+        <picklistValues>
+            <masterLabel>ASHOK</masterLabel>
+            <translation><!-- ASHOK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anil</masterLabel>
+            <translation><!-- Anil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rajendar</masterLabel>
+            <translation><!-- Rajendar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sateesh</masterLabel>
+            <translation><!-- Sateesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Srinu</masterLabel>
+            <translation><!-- Srinu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Srujana</masterLabel>
+            <translation><!-- Srujana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surendar</masterLabel>
+            <translation><!-- Surendar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suresh</masterLabel>
+            <translation><!-- Suresh --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Registered Strength --></label>
+        <name>Registered_Strength__c</name>
+    </fields>
+    <layouts>
+        <layout>Course Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

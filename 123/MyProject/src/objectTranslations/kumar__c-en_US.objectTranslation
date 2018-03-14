@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>kumar</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>kumars</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bill --></label>
+        <name>Bill__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Card Pament --></label>
+        <name>Credit_Card_Pament__c</name>
+        <picklistValues>
+            <masterLabel>offline</masterLabel>
+            <translation><!-- offline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>online</masterLabel>
+            <translation><!-- online --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Developer --></label>
+        <name>Developer__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR --></label>
+        <name>HR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loan Person --></label>
+        <name>Loan_Person__c</name>
+        <relationshipLabel><!-- kumars --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InActive</masterLabel>
+            <translation><!-- InActive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bill --></label>
+        <name>payment__c</name>
+    </fields>
+    <layouts>
+        <layout>icici</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

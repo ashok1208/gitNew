@@ -1,0 +1,29 @@
+<apex:page controller="SuperMarket" >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection >
+                <apex:pageBlock title="Product Info">
+                    <apex:pageBlockTable value="{!prlist}" var="pr" >
+
+                        <apex:column headerValue="Product Name">
+                            <apex:inputText value="{!pr.pname}" />
+                        </apex:column>
+                        
+                        <apex:column headerValue="Quantity">
+                            <apex:inputText value="{!pr.qty}" />
+                        </apex:column>
+                        
+                        <apex:column headerValue="Price">
+                            <apex:inputText value="{!pr.price}" />
+                        </apex:column>
+
+                    </apex:pageBlockTable>
+                    <apex:pageBlockButtons >
+                        <apex:commandButton value="ADDMORE" action="{!AddMore}"/>
+                        <apex:commandButton value="Submit" action="{!displayPage}"/>
+                    </apex:pageBlockButtons>
+                </apex:pageBlock>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>  
+</apex:page>

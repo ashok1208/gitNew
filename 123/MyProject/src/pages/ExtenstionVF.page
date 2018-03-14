@@ -1,0 +1,39 @@
+<apex:page standardController="Contact" recordSetVar="conlist" extensions="CustomerCtrl,kumarCtrl,PaginationCtrl" >
+<apex:form >
+    <apex:pageBlock title="ContactInfo">
+        <apex:outputPanel layout="block" style="overflow:auto;height:150px">
+        <apex:pageBlockTable value="{!conlist}" var="con">
+            <apex:column value="{!con.name}"/>
+            <apex:column value="{!con.Gender__c}"/>
+            <apex:column value="{!con.LeadSource}"/>
+            <apex:column value="{!con.Phone}"/>            
+        </apex:pageBlockTable>
+        </apex:outputPanel>
+    </apex:pageBlock>
+    <apex:pageBlock >
+    <apex:pageBlockSection >
+    <apeX:pageBlock title="Customer Info" >
+        <apex:outputPanel layout="block" style="overflow:auto;height:100px">
+        <apex:pageBlockTable value="{!custlist}" var="cust">
+            <apex:column value="{!cust.name}"/>
+            <apex:column value="{!cust.States__c}"/>
+            <apex:column value="{!cust.Country__c}"/>
+            <apex:column value="{!cust.Ammount__c }"/>
+        </apex:pageBlockTable>
+        </apex:outputPanel>        
+    </apeX:pageBlock>
+    
+    <apex:pageBlock title="Weste Fellow" >
+        <apex:outputPanel layout="block" style="overflow:auto;height:150px">
+        <apex:pageBlockTable value="{!kulist}" var="ku">
+            <apex:column value="{!ku.name}"/>
+            <apex:column value="{!ku.Bill__c}"/>
+            <apex:column value="{!ku.Status__c }"/>
+        </apex:pageBlockTable>
+        </apex:outputPanel>        
+    </apex:pageBlock> 
+    </apex:pageBlockSection>
+    </apex:pageBlock>
+    
+</apex:form>    
+</apex:page>

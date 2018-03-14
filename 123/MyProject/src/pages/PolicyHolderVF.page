@@ -1,0 +1,12 @@
+<apex:page standardController="Policy_Holder__c" extensions="PHctrl" showHeader="false">
+<apex:form >
+    <center>
+    <apex:pageBlock title="Policy Holder"> 
+        <apex:commandButton value="Add Policy Holder" action="{!addpolicyholder}"/><br/><br/>
+        <apex:commandButton value="View Policy Holder" action="{!viewpolicyholder}"/>
+        
+    </apex:pageBlock>
+    
+    </center> 
+</apex:form>
+</apex:page>

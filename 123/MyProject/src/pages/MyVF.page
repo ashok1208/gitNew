@@ -1,0 +1,6 @@
+<apex:page standardController="Account" >
+    <apex:form >
+        ="Form"
+         
+    </apex:form>
+</apex:page>

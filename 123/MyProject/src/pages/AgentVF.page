@@ -1,0 +1,14 @@
+<apex:page controller="IMSCtlr" showHeader="False">
+    <center>
+    <apex:form >
+        <apex:pageBlock title="Agent">
+            <apex:commandButton value="ADD Agent" action="{!AddAgent}"/><br></br><br></br>
+            <apex:commandButton value="View Agent" action="{!ViewAgent}"/> 
+                   
+        </apex:pageBlock>
+        
+    </apex:form>
+    </center>
+    
+  
+</apex:page>

@@ -1,0 +1,13 @@
+<apex:page standardController="Life_Insurance__c" extensions="LifeInsurenceCtrl" showHeader="false">
+<center>
+<apex:form >
+    <apex:pageBlock title="LifeInsurence">
+        <apex:commandButton value="ADD LifeInsurence" action="{!AddLifeInsurence}"/><br/><br/>
+        <apex:commandButton value="View LifeInsurence" action="{!ViewLifeInsurence}"/>
+    
+    
+    </apex:pageBlock>
+
+</apex:form>
+</center>
+</apex:page>

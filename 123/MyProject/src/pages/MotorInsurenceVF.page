@@ -1,0 +1,18 @@
+<apex:page standardController="Motor_Insurance__c" extensions="MotorInsurenceCtrl" showHeader="false">
+<center>
+<apex:form >
+    <apex:pageBlock title="Motor Insurence">
+                
+        <apex:commandButton value="Add Motor Insurence" action="{!AddMotorInsurence}"/><br/><br/>
+        <apex:commandButton value="View Motor Insurence" action="{!ViewMotorInsurence}"/>
+        
+        
+    
+    
+    </apex:pageBlock>
+
+
+
+</apex:form>
+</center> 
+</apex:page>

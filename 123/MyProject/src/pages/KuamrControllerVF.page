@@ -1,0 +1,12 @@
+<apex:page controller="kumarCtrl" >
+<apex:form >
+    <apex:pageblock title="Kumar Info" >
+        <apex:pageblockTable value="{!kulist}" var="ku">
+            <apex:column value="{!ku.name}"/>
+            <apex:column value="{!ku.Bill__c}"/>
+            <apex:column value="{!ku.Status__c}"/>
+            
+        </apex:pageblockTable>
+    </apex:pageblock>
+</apex:form>
+</apex:page>
